@@ -60,13 +60,13 @@
                 <input placeholder=" ¿Qué estás buscando?" type="text">
             </div>
         </ul>
-        <div class=" flex text-white p-5 font-bold bg-blue-1000 ">
+        <div class=" flex flex-wrap text-white p-5 font-bold bg-blue-1000 ">
             <div class="flex flex-wrap w-1/2">
                 <p>¡Despacho gratis por compras superiores a S/229! *válido Lima y Callao</p>
             </div>
             <div class="flex flex-wrap w-1/2 justify-center gap-2">
                 <p class="">s/0.00</p>
-                <div class="px-60 rounded-2xl  bg-black"></div>
+                <div class="hidden md:block  px-60 rounded-2xl  bg-black"></div>
                 <span>s/229</span>
             </div>
         </div>
@@ -82,7 +82,7 @@
         <button class="border border-blue-1000 rounded-2xl hover:bg-blue-900 hover:text-white px-10 text-blue-1000 mx-5">Busca talla <br><span class="text-xl font-bold">Ropa</span></button>
     </div>
 </div>
-<div class=" mt-5 px-20 grid grid-rows-3 grid-flow-col gap-5">
+<div class=" mt-5 px-20 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-5 ">
     <img src="img/comprar2.png" alt="">
     <img src="img/comprar6.png" alt="">
     <img src="img/comprar7.png" alt="">
@@ -95,20 +95,32 @@
 </div>
 <div>
     <img class="px-20 mt-10" src="img/personajes-favoritos.png" alt="">
-    <h1 class="text-center font-bold text-3xl ">Disney <span class="font-normal">y</span> Marbel</h1>
+    <h1 class="text-center font-bold text-3xl ">Disney <span class="font-normal">y</span> Marvel</h1>
 </div>
-<div class="flex gap-20 px-40 text-center text-gray-500 ">
-    <div><img src="img/niño1.png" alt=""><span>Ropa y Accesorios Niño</span></div>
-    <div><img src="img/niño2.png" alt=""><span>Zapatillas Niño</span></div>
-    <div><img src="img/niño3.png" alt=""><span>Ropa y Accesorios Niña</span></div>
-    <div><img src="img/niño4.png" alt=""><span>Zapatillas niña</span></div>
+<div class="flex flex-wrap text-center text-gray-500 ">
+    <div class="flex flex-col p-10 justify-center w-full  md:w-1/2 lg:w-1/4">
+        <img  src="img/niño1.png" alt="">
+        <span>Ropa y Accesorios Niño</span>
+    </div >
+    <div class="flex flex-col p-10 justify-center w-full md:w-1/2 lg:w-1/4">
+        <img src="img/niño2.png" alt="">
+        <span>Zapatillas Niño</span>
+    </div>
+    <div class="flex flex-col p-10 justify-center w-full md:w-1/2 lg:w-1/4">
+        <img src="img/niño3.png" alt="">
+        <span>Ropa y Accesorios Niña</span>
+    </div>
+    <div class="flex flex-col p-10 justify-center w-full md:w-1/2 lg:w-1/4">
+        <img src="img/niño4.png" alt="">
+        <span>Zapatillas niña</span>
+    </div>
 </div>
-<div class="flex mt-10 items-center px-60">
-    <img class="w-20 ml-80" src="https://collokycl.vtexassets.com/assets/vtex/assets-builder/collokycl.store-theme/1.13.110/images/etapas___f29da25dfee14bd576438855076ca04a.svg" alt="">
+<div class="flex flex-wrap items-center justify-center ">
+    <img class="w-20" src="https://collokycl.vtexassets.com/assets/vtex/assets-builder/collokycl.store-theme/1.13.110/images/etapas___f29da25dfee14bd576438855076ca04a.svg" alt="">
     <span class="text-5xl font-bold mb-5">etapas</span>
 </div>
-<h1 class="text-3xl text-center mt-5">Descubre en qué <span class="font-bold">etapa</span> está tu hijo</h1>
-<div class=" grid grid-rows-1 grid-flow-col gap-5 mt-10 px-20">
+<h1 class=" flex flex-wrap items-center justify-center text-3xl text-center ">Descubre en qué <span class="font-bold"> &nbsp;etapa&nbsp; </span> está tu hijo</h1>
+<div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 mt-10 px-20">
     <img src="img/bebe.png" alt="">
     <img src="img/gateador.png" alt="">
     <img src="img/pasos.png" alt="">
@@ -133,29 +145,29 @@
         <a class="text-blue-900 text-xl" href="">Ropa</a>
     </div>
   </div>
-<div class=" grid grid-rows-1 grid-flow-col gap-5 px-20">
+<div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-20">
     <img src="img/bebenina.webp" alt="">
     <img src="img/bebenino.webp" alt="">
     <img src="img/nino.webp" alt="">
     <img src="img/nina.webp" alt="">
 </div>
-<div class="flex justify-center text-center gap-40 mt-10">
-    <div>
+<div class="flex flex-wrap justify-center text-center mt-10">
+    <div class="w-full md:w-1/2 lg:w-1/4">
         <i class="fa-solid fa-truck-fast text-gray-300 text-7xl"></i>
         <br>
         <a class="text-gray-300" href="">DESPACHO A TODO <br> EL PERÚ</a>
     </div>
-    <div>
+    <div class="w-full md:w-1/2 lg:w-1/4">
         <i class="fa-solid fa-credit-card text-gray-300 text-7xl"></i>
         <br>
         <a class="text-gray-300" href="">PAGO SEGURO <br> COMPRA FÁCIL</a>
     </div>
-    <div>
+    <div class="w-full md:w-1/2 lg:w-1/4">
         <i class="fa-solid fa-truck-fast text-gray-300 text-7xl"></i>
         <br>
         <a class="text-gray-300" href="">DESPACHO A TODO <br> EL PERU</a>
     </div>
-    <div>
+    <div class="w-full md:w-1/2 lg:w-1/4">
         <i class="fa-solid fa-credit-card text-gray-300 text-7xl"></i>
         <br>
         <a class="text-gray-300" href="">PAGO SEGURO <br> COMPRA FÁCIL</a>
